@@ -101,3 +101,21 @@ CSS
 
 -> style tag
 -> link tag
+
+Task 1:
+- Create a college enrollment form.
+-> Name
+-> Phone Number
+-> Email
+-> Address
+-> Guardian NAme
+-> Guadian Phone Number
+-> Gender
+-> Course that you want to enroll for.
+-> School Name
+-> Age
+-> School Marks
+-> Board
+-> I accept terms and conditions checkbox.
+
+&lt; &gt;
