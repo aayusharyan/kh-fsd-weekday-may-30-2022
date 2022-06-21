@@ -84,21 +84,6 @@ CSS
 - Makes underline for the text.
 - Prefer NOT to use it. We will do this same thing using CSS.
 
-
-- sub
-- sup
-- anchor
-- span / div
-- legend
-- Semantic Tags (strong, em)
-- meta
-- video
-- audio
-- iframe
-- center
-- marquee
-
-
 -> style tag
 -> link tag
 
