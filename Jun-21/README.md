@@ -14,17 +14,3 @@
 ### span
 - It is also a separator.
 - But, the purpose for this is to seaprate the content.
-
-
-- sub
-- sup
-- anchor
-- span / div
-- legend
-- Semantic Tags (strong, em)
-- meta
-- video
-- audio
-- iframe
-- center
-- marquee
