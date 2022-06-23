@@ -1,0 +1,65 @@
+body {
+  background-color: aquamarine;
+}
+
+button {
+  background-color: white;
+  border-radius: 15px;
+  border-color: transparent;
+  border-style: solid;
+}
+
+[abcd="xyz"] {
+  background-color: red;
+  border-color: orange;
+}
+
+[another] {
+  background-color: blue;
+  border-color: lightblue;
+}
+
+[special] {
+  border-style: solid;
+  border-color: yellow;
+  border-radius: 10px;
+  text-align: justify;
+  border-width: 2px;
+  border-left-color: red;
+  border-right-color: green;
+  border-top-color: yellow;
+  border-bottom-color: blue;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.color-red {
+  color: red;
+}
+
+#special_element {
+  color: blue;
+  background-color: brown;
+}
+
+* {
+  color: green;
+}
+
+input {
+  background-color: transparent;
+}
+
+/*
+ljkj
+sdfhkls
+s
+dfnsd
+fs
+f
+sf
+sfs
+f
+*/
