@@ -71,13 +71,3 @@ Task 1:
 Task 2:
 -> Create a page, looking like calculator.
 
-
-
-width and height
-display: block and inline.
-box-model (margin and padding)
-
--> Priority (Specificity)
-
-- entities
-- meta

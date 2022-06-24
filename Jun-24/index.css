@@ -1,0 +1,30 @@
+button {
+  /* margin-top: 15px; */
+  /* margin-left: 50px; */
+  /* padding-top: 50px; */
+  /* padding-left: 50px; */
+  /* margin-left: auto; */
+}
+
+p {
+  display: none;
+}
+h1 {
+  margin: 0px;
+  display: inline;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+h2 {
+  display: inline;
+}
+span {
+  display: block;
+}
+
+div {
+  background-color: gray;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100px;
+}
