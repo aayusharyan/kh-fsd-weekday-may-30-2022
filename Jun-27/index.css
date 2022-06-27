@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@font-face {
+  font-family: 'Aayush Font';
+  src: url('./Sacramento-Regular.ttf');
+}
+
+.d-inline {
+  display: inline;
+}
+
+.f-right {
+  float: right;
+}
+
+.m-top-5 {
+  margin-top: 5px;
+}
+
+section {
+  margin-top: 15px;
+}
+
+/* body {
+  filter: brightness(50%);
+} */
+
+p {
+  /* font-family: cursive; */
+  /* font-family: monospace; */
+  font-family: 'Titan One', cursive, monospace;
+}
+
+.special-font {
+  font-family: 'Aayush Font', 'Titan One', cursive, monospace;
+}

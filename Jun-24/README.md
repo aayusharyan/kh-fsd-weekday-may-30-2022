@@ -25,7 +25,7 @@
 - This space is within the border.
 - We can change padding for each side individually.
 
-## Margijn
+## Margin
 - This is the space that we give outside of the content.
 - This will shift other elements as well.
 - We can change margin for each side individually.
