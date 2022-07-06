@@ -1,0 +1,67 @@
+
+/* I want to style the h1 tag which is inside the nav bar */
+/* nav > h1 {
+  color: red;
+} */
+
+/* I want to select all the items of first list */
+
+/* .first > li {
+  color: yellow;
+} */
+
+/* table > td {
+  color: green;
+} */
+
+/* table > tbody > tr > td {
+  color: green;
+} */
+
+/* thead td {
+  color: #FF0000;
+}
+tbody td {
+  color: #00FF00;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  font-weight: 900;
+}
+
+tfoot td {
+  color: #0000FF;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#special ~ li {
+  color: purple;
+}
+
+#special + li {
+  color: orange;
+} */
+
+/* ul > li:nth-child(3) {
+  color: blueviolet;
+} */
+
+/* nav > h1:only-child {
+  color: green;
+} */
+
+/* ul li:nth-child(2n) {
+  color: orange;
+}
+
+ul li:nth-child(2n + 1) {
+  color: purple;
+} */
+
+/* ul li:nth-child(-n + 1) {
+  color: greenyellow;
+} */
