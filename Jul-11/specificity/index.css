@@ -1,0 +1,28 @@
+#para5 {
+  color: blue;
+}
+
+
+p {
+  color: yellow;
+  text-align: center;
+}
+
+.spl {
+  color: brown !important;
+}
+
+p:hover {
+  background-color: red;
+}
+
+.fancy:hover {
+  /* border-color: green; */
+  /* border-width: 5px; */
+  /* border-style: solid; */
+  background-color: green;
+}
+
+* {
+  color: orange !important;
+}

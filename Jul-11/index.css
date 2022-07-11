@@ -1,0 +1,81 @@
+button {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  /* transform: scale(1.5); */
+}
+
+button:active {
+  color: #00FF00;
+  background-color: #FF0000;
+}
+
+input {
+  background-color: #FF0000;
+}
+
+input:focus {
+  background-color: #00FF00;
+}
+
+/* a:visited {
+  color: #FF0000;
+} */
+
+p:first-letter {
+  color: #FF0000;
+  font-size: 200%;
+}
+
+p:first-line {
+  color: orange;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "₹";
+  /* content: url("https://cdn-icons-png.flaticon.com/512/3465/3465221.png"); */
+  /* color: #FF0000; */
+  /* background-color: #00FF00; */
+  font-size: 125%;
+  background-color: cyan;
+  /* width: 10px; */
+  /* height: 10px; */
+  /* transform: scale(0.1); */
+  /* display: inline-block; */
+}
+
+ul li::after {
+  content: "/-";
+}
+
+
+
+
+#para1 {
+  color: greenyellow;
+}
+
+.spl_para {
+  color: purple;
+}
+
+p {
+  color: pink;
+}
+
+* {
+  color: beige;
+}
+
