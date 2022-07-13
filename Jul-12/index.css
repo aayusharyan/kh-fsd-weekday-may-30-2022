@@ -1,0 +1,41 @@
+/* table > tbody > tr > td > img {
+  width: 80px;
+  width: 100%;
+} */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 5px; */
+  justify-content: flex-start;
+  /* align-items: center; */
+  /* align-content: stretch; */
+  /* flex-direction: column-reverse; */
+  /* row-gap: 10px; */
+  /* column-gap: 10px; */
+  gap: 10px;
+}
+
+
+img {
+  width: 30%; /* 32 + 32 + 32 = 96% */
+  max-width: 110px;
+}
+
+.another_container {
+  display: flex;
+  gap: 10px;
+  row-gap: 10px;
+  column-gap: 10px;
+  /* flex-direction: column-reverse; */
+  align-items: flex-start;
+  /* align-content: stretch; */
+  /* width: 40px; */
+  /* justify-content: flex-end; */
+}
+
+.another_container > div {
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+}
