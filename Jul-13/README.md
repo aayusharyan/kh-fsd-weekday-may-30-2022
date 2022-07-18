@@ -67,3 +67,6 @@ const days_in_week = 7;
 
 
 Task 1 -> Create an object and get the keys using Object.keys and then loop on it and print values of that key.
+
+Task 1 -> Create an object and get the keys using Object.keys and then loop on it and print values of that key. Task 1 -> Create an object and get the keys using Object.keys and then loop on it and print values of that key. Task 1 -> Create an object and get the keys using Object.keys and then loop on it and print values of that key.
+
