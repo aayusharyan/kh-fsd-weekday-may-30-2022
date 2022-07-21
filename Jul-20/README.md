@@ -70,17 +70,6 @@ var abcd = "Hello World";
 **Hoisting happens for everything. But because of TDZ, it seems like hoisting is not happening for let and const.**
 **If hoisting was not happening for let and const, then for let and const it would show the Reference error, but because hoisting still happens, the JS engine knows that there is a let and because of TDZ, a different error is thrown, cannot access a lexical variable before initialization.**
 
-
-
-## Object Oriented Programming (OOP)
-
-## this
-
-## call/apply/bind
-
-## API calls
-## modules
-
 # Task - 
 - To create a checkout page.
 - Add functionality to that page.
