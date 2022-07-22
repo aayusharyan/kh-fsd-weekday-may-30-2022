@@ -72,26 +72,7 @@ class Child extends Parent {
 
 }
 
-### Polymorphism
-
-
-
-
 **JS is a multi paradigm programming language.**
-
-
-## call/apply/bind
-
-## API calls
-## modules
-
-## casing
-
-
-## Rest Operator
-
-# Prototype chaining
-
 
 ## Task
 - Create a class for Human with constructor taking input as name. It will have member functions such as introduce and sayHello.
