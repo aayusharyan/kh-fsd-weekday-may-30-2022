@@ -1,0 +1,40 @@
+:root {
+  --light-grey: #E5E5E5;
+  --white: #FFFFFF;
+  --yellow: #FCA311;
+  --blue: #14213D;
+  --black: #000000;
+}
+
+body {
+  background-color: var(--white);
+}
+
+#product_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+#product_container > div {
+  max-width: 200px;
+  border-color: var(--yellow);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#product_container > div > img {
+  max-width: 200px;
+  border-radius: 15px;
+}
+
+#product_container > div > p::before {
+  content: '₹';
+}
+
+/* #product_container > div > p {
+  float: right;
+} */
