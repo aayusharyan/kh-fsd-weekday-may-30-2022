@@ -24,15 +24,24 @@ body {
   border-style: solid;
   border-radius: 15px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 #product_container > div > img {
   max-width: 200px;
+  /* max-height: 200px; */
   border-radius: 15px;
 }
 
 #product_container > div > p::before {
   content: '₹';
+}
+
+#product_container > div > button {
+  /* align-self: flex-end; */
+  /* vertical-align: bottom; */
+  margin-top: auto;
 }
 
 /* #product_container > div > p {

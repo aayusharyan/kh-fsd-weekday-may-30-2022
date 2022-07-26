@@ -25,12 +25,14 @@ const display = data => {
     const price_element = document.createElement("p");
     price_element.innerText = price;
 
-    const add_to_cart = document.createElement("");
+    const add_to_cart = document.createElement("button");
+    add_to_cart.innerText = "Add to Cart"
 
     const container_element = document.createElement("div");
     container_element.appendChild(img_element);
     container_element.appendChild(h4_element);
     container_element.appendChild(price_element);
+    container_element.appendChild(add_to_cart);
 
     parent.appendChild(container_element);
   }
