@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concepts Jul-27</title>
+  </head>
+  <body>
+    <h2>Jul-27 Session</h2>
+    <script>
+      let arr = [10, 22, 31, 45, 57, 66, 72];
+      // arr = arr.reverse();
+
+      //Looping on arr
+      // for(let i = 0; i < arr.length; i = i + 1) {
+      //   const single_arr_elem = arr[i];
+      //   console.log(i, single_arr_elem);
+      // }
+
+      //Foreach (Advanced for loop)
+      // arr.forEach((single_arr_element, idx) => {
+      //   console.log(idx, single_arr_element);
+      // });
+
+      // Convert this array and multiply every element by 5
+      // [50, 110, 155, ...]
+      
+
+      //Oldschool
+      // for(let i = 0; i < arr.length; i = i + 1) {
+      //   let single_arr_elem = arr[i];
+      //   let result = single_arr_elem * 5;
+      //   arr[i] = result;
+      // }
+
+      // arr = arr.map(single_element => {
+      //   return single_element * 5;
+      // });
+
+      arr = arr.map(e => e * 5);
+
+      console.log(arr);
+
+      // const sum = (a, b, c, d) => a + b + c + d;
+      const sum = (a, b) => a + b;
+
+      //Task -> Manipulate the array with element ^ index.
+      //**
+
+      // arr = arr.map((e, i) => e ** i);
+
+      //Task -> Filter out the odd numbers, only keep even.
+      // arr = arr.filter(single_element => {
+      //   if(single_element % 2 == 0) {
+      //     return true;
+      //   }
+      //   return false;
+      // });
+
+      arr = arr.filter(e => e % 2 == 0); //Keeps the even, removing odd
+      // arr = arr.filter(e => e % 2 != 0); //Keeps the odd, removing even
+
+      console.log(arr);
+
+      //Task -> Calculate the sum of all of the elements.
+
+      /*
+      let total = 0; //The total variable to store sum
+      arr.forEach(e => { //Foreach to loop on the array
+        total = total + e; //For every element, add that value to sum
+      })
+      console.log(total); //Console that value.
+      */
+
+      // let total = arr.reduce((cumulative, element) => {
+      //   return cumulative + element;
+      // }, 0);
+
+      // const total = arr.reduce((c, e) => c + e, 0);
+      // console.log(total);
+
+
+
+
+
+    </script>
+  </body>
+</html>
