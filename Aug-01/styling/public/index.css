@@ -1,0 +1,22 @@
+/* button {
+  color: red;
+  border: transparent;
+}
+
+.heading {
+  color: lightgreen;
+} */
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color:  black;
+  color: white;
+}
+
+img {
+  width: 150px;
+}
