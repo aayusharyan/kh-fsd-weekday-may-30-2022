@@ -69,25 +69,6 @@ public static void fn1(String str, int n) {
 - When the promise is completed, we can have a then function that takes a callback and executes later.
 - Promise can be either successful (resolved), or failed (rejected).
 
-
-
-## headers vs body of an API call
-
-## call/apply/bind
-
-
-## modules
-
-## casing
-
-
-## Rest Operator
-
-# Prototype chaining
-
-# setTimeout / setInterval
-
-
 **Note: fetch, timers, DOM, BOM, etc. are NOT part of core JS, these are additional things which are provided by the Browser (via an API).**
 
 
