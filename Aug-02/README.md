@@ -50,27 +50,4 @@
 ## Task:
 - Implement a button that allows pausing and resuming of the counter.
 
-
-
-
-## Prop Drilling
-
-## functional components
-
-## HOC
-
-## headers vs body of an API call
-
-## call/apply/bind
-
-
-## modules
-
-## casing
-
-
-## Rest Operator
-
-# Prototype chaining
-
-# setTimeout / setInterval
+**Note: MAKE SURE THAT NodeJS is installed before tomorrow's session.**
