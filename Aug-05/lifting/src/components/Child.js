@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 
-const Child = (props) => {
+const Child = ({ update_callback }) => {
   const [counter, setCounter] = useState(0);
 
-  useEffect(_ => props.update_callback(counter), [counter]);
+  useEffect(_ => update_callback(counter), [counter]);
   
   const incremenet = _ => {
     setCounter(current => current + 1);

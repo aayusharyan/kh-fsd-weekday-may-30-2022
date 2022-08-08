@@ -69,27 +69,8 @@
 - Inside the component code, we can use {props.children} to show the children passed into the HOC.
 
 
-## IIFE
-
-
-
-
-
-
-
 \ -> Windows
 / -> Linux & Mac
-
-
-### Destructuring of Objects - ES9 (2018).
-
-
-## call/apply/bind
-
-## Rest Operator
-
-# Prototype chaining
-
 
 # Task:
 ## 1. Create an app to show the sum of 2 numbers. (Better understanding of State Lifting and Props)
