@@ -74,7 +74,7 @@ const sayHello = function hello() {
 - Create an App (React)
 - User will type the word.
 - Your app will show the definition.
-
-
-## Spread Operator
-- Syntax ...
+- call
+- https://api.dictionaryapi.dev/api/v2/entries/en/call
+- zoom
+- https://api.dictionaryapi.dev/api/v2/entries/en/zoom
