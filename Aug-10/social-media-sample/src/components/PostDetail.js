@@ -11,6 +11,7 @@ const PostDetail = () => {
       (async _ => {
         const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
         const data = await response.json();
+        console.log(data);
         setPostData(data);
       })();
     }
@@ -22,7 +23,11 @@ const PostDetail = () => {
     <Link to="/">Back to Home</Link>
     <h4>Single Post Detail</h4>
     <div>
-      <h5>Posted by: {postData.userId}</h5>
+      <h5>
+        Posted by: &nbsp;
+        <Link to={`/single_user/${postData.userId}`}>{postData.userId}</Link>
+      
+      </h5>
       <h2>{postData.title}</h2>
       <p>{postData.body}</p>
     </div>

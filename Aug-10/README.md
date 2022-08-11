@@ -44,18 +44,15 @@
 - This is a hook. This is a third-party-hook.
 
 
-
 ## Task:
 - Implement the comment list on the post detail component.
 - https://jsonplaceholder.typicode.com/posts/<id>/comments
 - Add some more CSS to make it look good.
 
-## Writing your own hook
-
-
 ### Simple Project using routing
-
-
-
-### Debouncing
-### Path Parameters
+- This is the social media app.
+- Using https://jsonplaceholder.typicode.com/ APIs
+- We show:
+ - Homepage -> List of posts.
+ - Clicking on a Post -> Post Detail (Query Parameters -> http://localhost:3002/single_post?id=1)
+ -> Clickin on the User ID -> User Detail (Path Parameters -> )
