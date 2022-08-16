@@ -30,6 +30,7 @@ const PostDetail = () => {
       </h5>
       <h2>{postData.title}</h2>
       <p>{postData.body}</p>
+      {/* <Comment /> */}
     </div>
     </>
   )

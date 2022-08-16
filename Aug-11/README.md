@@ -44,7 +44,7 @@
 - Check if we have internet or not.
 - This is a special function that we write to detect the presence/absence of Internet.
 - This will return a boolean variable that can be tracked.
-- Ao, if the internet gets disconnected, it will automatically show offline status (depending on the Conditional Rendering Logic).
+- So, if the internet gets disconnected, it will automatically show offline status (depending on the Conditional Rendering Logic).
 
 ## Context API
 - This is not a fetch API, or a URL something.
@@ -54,12 +54,6 @@
 - Consumer will CONSUME the data.
 
 - Example tomorrow.
-
-
-
-
-### Debouncing
-### Path Parameters
 
 
 ## Task:

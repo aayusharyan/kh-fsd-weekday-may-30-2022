@@ -1,0 +1,8 @@
+- Aug 12
+
+
+- Debouncing
+
+- call/apply/bind
+
+- Prototype chaining
