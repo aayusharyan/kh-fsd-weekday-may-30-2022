@@ -11,13 +11,16 @@ const counterSlice = createSlice({
     },
     decrement: state => {
       state.value = state.value - 1;
+    },
+    random: state => {
+      state.value = Math.floor(Math.random() * 100);
     }
   }
 })
 
 const store = configureStore({
   reducer: counterSlice.reducer
-})
+});
 
 export const { increment, decrement } = counterSlice.actions; //Named export
 export default store; //Default Export
