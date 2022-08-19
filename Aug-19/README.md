@@ -31,14 +31,24 @@
 - This means, we listen for browser requests.
 - After this, listen for GET requests on a path.
 
+- app.get(<path>, <callback>).
+- Path can be anything in string.
+- Callback is a function, we write the logic.
+- This callback function accepts two things, request and response.
+- Request -> Sent from browser to the server.
+- Response -> Processed response sent back from the server to the browser.
+
 ### Sending JSON Data.
+- Here, send the response.json method and inside that method, give the JSON data you want to send.
+
 
 **Note: If you change anything in the JS file. You NEED to stop the server and start it again. Otherwise, it will not reflect the updated data/logic. This problem is solved by using nodemon.**
 
 ## Task:
 - Create a server and send a list of names. (Like, family members, friends).
 - For the frontend, create a react application, then show this list of members which is fetched from the server that you created.
- 
+
+- Install Postman
 
 
 ### nodemon
