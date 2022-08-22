@@ -47,8 +47,3 @@
 ## Task:
 - Create a server and send a list of names. (Like, family members, friends).
 - For the frontend, create a react application, then show this list of members which is fetched from the server that you created.
-
-- Install Postman
-
-
-### nodemon
