@@ -54,7 +54,7 @@
 - This also gives an idea about how and what props are sent from which component to which other component.
 - Used to debug the React application. (But we can also use this to view the structure of any website which is made with React).
 
-## URL Structuring
+## URL Structuring (Anatomy of a URL)
 - Uniform Resource Locator
 - Used to give a unique address to any resource.
 - Example: https://www.google.com/
