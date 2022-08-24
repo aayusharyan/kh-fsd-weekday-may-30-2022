@@ -46,26 +46,3 @@
 
 # Task:
 - Create the remaining 3 functionalities of the basic calculator API.
-- 
-
-
-
-
-
-
-### POST
-- This is to post the data.
-- Post -> Send
-- 
-
-put
-delete
-patch
-trace
-options
-head
-
-- 
-
-
-## HTTP Status Code
