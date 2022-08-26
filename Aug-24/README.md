@@ -95,8 +95,6 @@
 - If you want to send a custom status code, then you can just send insode res.send() method.
 
 
-
-
 ## Task:
 ### First
 - Create a list of your friends and create a backend with 2 endpoints.
@@ -106,9 +104,3 @@
 
 ### Second
 - Create an endpoint which accepts a number and returns whether it is prime number or not.
-
-
-
-## Middleware
-## Getting data from POST.
-## Example of OPTIONS.
