@@ -58,7 +58,6 @@
 - Uniform Resource Locator
 - Used to give a unique address to any resource.
 - Example: https://www.google.com/
-- 
 
 ### Protocol:
 - Examples: http, https, ftp, sftp, tty, smtp
