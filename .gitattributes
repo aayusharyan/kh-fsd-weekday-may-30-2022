@@ -1,0 +1,4 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+Sep-02/puppeteer/node_modules/puppeteer/.local-chromium/win64-1036745/chrome-win/chrome.dll filter=lfs diff=lfs merge=lfs -text
+Sep-02/puppeteer/node_modules/puppeteer/.local-chromium/win64-1036745/chrome-win/interactive_ui_tests.exe filter=lfs diff=lfs merge=lfs -text

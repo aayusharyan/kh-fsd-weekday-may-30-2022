@@ -135,8 +135,3 @@
 - Database - https://www.mongodb.com/cloud/atlas/lp/try4
 
 - If we want to use the MongoDB Server on our computer / machine, we need to install this software - https://www.mongodb.com/docs/manual/installation/
-
-
-## JEST
-## Puppeteer
-## Cypress.io

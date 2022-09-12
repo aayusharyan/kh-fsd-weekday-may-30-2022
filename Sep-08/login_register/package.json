@@ -1,0 +1,20 @@
+{
+  "name": "Sep-08",
+  "version": "1.0.0",
+  "description": "- Documents -> Collection -> Database (NoSQL)\r - Rows -> Table -> Database (SQL)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1"
+  }
+}
