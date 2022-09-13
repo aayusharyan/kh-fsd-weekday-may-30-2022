@@ -1,0 +1,29 @@
+button {
+  transition: all 0.25s linear;
+  cursor: pointer;
+}
+
+button:hover {
+  /* font-size: 200%; */
+  /* margin-left: 30px; */
+  background-color: black;
+  color: white;
+}
+
+.card {
+  display: inline-block;
+  width: 100px;
+  height: 120px;
+  background-color: orange;
+  border-radius: 5px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.card:hover {
+  margin-top: -5px;
+  margin-left: -5px;
+  box-shadow: 5px 5px 7px #BBBBBB;
+  border: 2px solid red;
+  transform: scale(1.5);
+}
