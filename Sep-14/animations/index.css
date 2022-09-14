@@ -1,0 +1,86 @@
+h2 {
+  /* animation: anim 15s linear infinite alternate ; */
+}
+
+@keyframes anim {
+  from {
+    font-size: 100%;
+    margin-left: 0px;
+  }
+
+  to {
+    font-size: 300%;
+    margin-left: 50vw;
+  }
+}
+
+.scrolling {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ gap: 1rem;
+ overflow: hidden;
+ animation: scroll 20s linear infinite;
+ position: relative;
+ cursor: pointer;
+}
+
+.scrolling:hover {
+  animation-play-state: paused;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    right: -100%;
+    color: red;
+  }
+
+  25% {
+    color: blue;
+  }
+
+  50% {
+    color: green;
+  }
+
+  75%{
+    color: yellow
+  }
+
+  100% {
+    right: 100%;
+    color: red;
+  }
+}
+
+.rating {
+  background: linear-gradient(45deg, red, blue);
+  display: inline;
+  padding: calc(1rem + 4px) 4px;
+  border-radius: 50%;
+  animation: grad 3s linear infinite alternate;
+}
+
+.rating > div {
+  margin-top: 0.5rem;
+  display: inline;
+  background: white;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+@keyframes grad {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
